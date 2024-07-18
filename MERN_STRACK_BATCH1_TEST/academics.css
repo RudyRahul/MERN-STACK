@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+.academics-header {
+    text-align: center;
+    padding: 20px;
+    background-color: #343a40;
+    color: white;
+}
+.academics-details {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+.academics-details h2 {
+    color: #343a40;
+}
+.academics-details p {
+    color: #666;
+}
+@media (max-width: 600px) {
+    .academics-details {
+        padding: 10px;
+    }
+}
